@@ -1,0 +1,381 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: sans-serif;
+    color: #5d5d5d;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1024px;
+}
+header {
+    border-bottom: 2px solid gray;
+}
+.headerBlock {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 15px;
+}
+
+.logo {
+    width: 230px;
+}
+
+.headerMenu__item {
+    display: inline-block;
+    list-style: none;
+    padding: 12px 24px;
+}
+
+.headerMenu__item:hover {
+    cursor: pointer;
+    background: #373737;
+}
+
+.headerMenu__item:hover a {
+    color: white;
+}
+
+.headerMenu__item a {
+    color: #373737;
+    text-decoration: none;
+}
+
+.mainBunner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 15px;
+}
+.mainBunner__title {
+    font-size: 60px;
+    font-weight: normal;
+
+}
+.mainBunner__subTitle {
+    font-size: 47px;
+    margin-bottom: 30px;
+}
+.mainBunner__userAction {
+    align-items: center;
+    background: #373737;
+    color: white;
+    display: flex;
+    font-size: 23px;
+    justify-content: flex-start;
+    max-width: 205px;
+    padding: 12px;
+}
+.mainBunner__userAction:hover {
+    cursor: pointer;
+    background: #4c4c4c;
+}
+.userAction__icon {
+    width: 33px;
+    margin-right: 12px;
+}
+
+.mainBunnerImgContent {
+    width: 700px;
+}
+
+main {
+    align-items: flex-start;
+    display: flex;
+}
+
+.mainContent {
+    width: 70%;
+    padding-right: 25px;
+}
+
+.mainArticle {
+    display: flex;
+}
+
+.mainArticleContent {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainArticle__img {
+    position: relative;
+    border: 1px solid transparent;
+    width: 275px;
+    min-width: 275px;
+    margin-right: 25px;
+}
+
+.mainArticle__img_phone {
+    position: absolute;
+    width: 70px;
+    height: 110px;
+    top: 60px;
+    left: 30px;
+}
+.mainArticle__img_desktop {
+    position: absolute;
+    width: 122px;
+    height: 120px;
+    top: 60px;
+    left: 120px;
+}
+
+
+
+
+.mainArticleContent h2 {
+    margin-bottom: 15px;
+}
+.mainArticleContent p {
+    margin-bottom: 15px;
+}
+
+.sliderManager {
+    display: flex;
+    margin-left: auto;
+}
+.sliderManager__arrowRight {
+    width: 10px;
+    padding: 8px 12px;
+    background: darkgray;
+    order: 2;
+}
+.sliderManager__arrowLeft {
+    width: 10px;
+    padding: 8px 12px;
+    background: #696969;
+    order: 1;
+}
+
+.articlesBlock {
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    *background: lightpink;*
+
+}
+
+.articleBlock_1 {
+    width: 30%;
+    padding-bottom: 40px;
+}
+
+.articleBlock_2 {
+    width: 30%;
+    padding-bottom: 30px;
+}
+.articleBlock_3 {
+    width: 30%;
+    padding-bottom: 30px;
+}
+.articleBlock_4 {
+    width: 30%;
+    padding-bottom: 30px;
+}
+.articleBlock_5 {
+    width: 30%;
+    padding-bottom: 30px;
+}
+.articleBlock_6 {
+    width: 30%;
+    padding-bottom: 30px;
+}
+.articleBlock_7 {
+    width: 30%;
+}
+.articleBlock_8 {
+    width: 30%;
+}
+.articleBlock_9 {
+    width: 30%;
+}
+
+.articlesBlock h3, p {
+    margin-bottom: 15px;
+}
+
+.sideBar {
+    width: 30%;
+    *  background: green; *
+height: 300px;
+}
+
+.slideBar_image1 {
+    padding-bottom: 30px;
+    position: relative;
+    border: 1px solid transparent;
+}
+
+.slideBar_image1_text {
+    position: absolute;
+    top: 20px;
+    left: 80px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.slideBar_image1_text h2 {
+    color: #b8dc58;
+    padding-top: 0;
+    font-style: normal;
+}
+
+.slideBar_image1_phoneBIg {
+    position: absolute;
+    top: 90px;
+    left: 50px;
+    width: 95px;
+    height: 165px
+}
+.slideBar_image1_phoneSmall {
+    position: absolute;
+    top: 145px;
+    left: 120px;
+    width: 55px;
+    height: 125px
+}
+.slideBar_image1_css {
+    position: absolute;
+    top: 180px;
+    left: 200px;
+    width: 45px;
+    height: 45px
+}
+
+
+.slideBar_image2 {
+    padding-bottom: 30px;
+    border: 1px solid transparent;
+    position: relative;
+}
+
+.slideBar_image2_circleNumber {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    background: #c95784;
+    width: 120px;
+    height: 120px;
+    border: 5px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px auto 0 auto;
+
+}
+
+.slideBar_image2_circleNumber p {
+    font-size: 20px;
+    color: white;
+}
+.slideBar_image2_circleNumber p:first-child {
+    font-size: 50px;
+}
+
+.slideBar_image2_text {
+    position: absolute;
+    top: 115px;
+    left: 15px;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 23px;
+}
+
+.slideBar_image2_text button {
+    background: #58d1dc ;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 20px ;
+    padding: 5px 20px 5px 20px;
+}
+.slideBar_image2_text button:hover {
+    cursor: pointer;
+    background: #c95784 ;
+}
+
+
+.slideBar_image3 {
+    border: 1px solid transparent;
+    position: relative;
+}
+
+.slideBar_image3_pinkLine {
+    position: absolute;
+    bottom: -5px;
+}
+
+.slideBar_image3_text h2 {
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: sans-serif;
+}
+
+.slideBar_image3_text {
+    position: absolute;
+    top: 20px;
+    color: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-size: small;
+    padding: 0px 30px 0px 30px;
+    text-align: justify;
+
+}
+
+.slideBar_image3_name {
+    background: white;
+    color: black;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+
+
+}
+.slideBar_image3_address {
+    background: white;
+    color: black;
+    padding-left: 5px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+
+
+}
+
+.slideBar_image3_button {
+    position: absolute;
+    top: 170px;
+    left: 60px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.slideBar_image3_button button {
+    text-align: center;
+    background: #c95784 ;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 20px ;
+    padding: 5px 30px 5px 30px;
+
+}
+.slideBar_image3_text button:hover {
+    cursor: pointer;
+    background: #58d1dc ;
+}
